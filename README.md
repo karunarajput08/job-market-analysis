@@ -21,6 +21,16 @@ The project demonstrates:
 
 ---
 
+## Business Questions Answered
+
+- Which skills are most in demand?
+- Which industries offer the highest salaries?
+- What are the top-paying technical skills?
+- How are salaries distributed across industries?
+- Which jobs fall into high, medium, and low salary categories?
+
+---
+
 ## 🗂️ Dataset Information
 
 The dataset contains:
