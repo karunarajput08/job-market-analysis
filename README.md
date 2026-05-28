@@ -1,6 +1,6 @@
-# Job Market Analysis using SQL
+# 📊 Job Market Analysis using SQL
 
-## Project Overview
+## 📌 Project Overview
 
 This project analyzes job market data using SQL. The analysis focuses on salary trends, skill demand, and industry insights.
 
@@ -14,47 +14,49 @@ The project demonstrates:
 
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 
 - MySQL
 - GitHub
 
 ---
 
-## Dataset Information
+## 🗂️ Dataset Information
 
 The dataset contains:
 - Job salaries
 - Job skills
 - Industry information
 
-Tables used:
+### Tables Used
+
 - salaries
 - job_skills
 - job_industries
 
 ---
 
-## Key SQL Concepts Used
+## 📚 Key SQL Concepts Used
 
-### Data Cleaning
+### 🔹 Data Cleaning
 - NULL value checks
 - Duplicate detection
 
-### Data Analysis
+### 🔹 Data Analysis
 - Salary analysis
 - Skill demand analysis
 - Industry trends
 
-### Advanced SQL
-- JOINS
+### 🔹 Advanced SQL
+- JOIN Operations
 - CASE Statements
+- Aggregate Functions
 - Window Functions
-- RANK()
+- Ranking Functions
 
 ---
 
-## Example SQL Queries
+## 💻 Example SQL Queries
 
 ### Top Skills in Demand
 
@@ -67,7 +69,9 @@ ORDER BY demand_count DESC
 LIMIT 10;
 ```
 
-### Salary Ranking
+---
+
+### Salary Ranking using Window Function
 
 ```sql
 SELECT job_id,
@@ -78,7 +82,7 @@ FROM salaries;
 
 ---
 
-## Key Insights
+## 📈 Key Insights
 
 - Identified highest paying skills
 - Found most demanded skills
@@ -87,15 +91,48 @@ FROM salaries;
 
 ---
 
-## Project Files
+## 📁 Project Files
 
-- `job_market_analysis_project.sql` → Complete SQL queries
-- `dataset.csv` → Raw dataset
-- `screenshots/` → Query output screenshots
+```plaintext
+job-market-analysis/
+│
+├── README.md
+├── job_market_analysis_project.sql
+├── top_skills.png
+├── salary_by_skill.png
+├── window_function.png
+└── industry_salary.png
+```
 
 ---
 
-## Future Improvements
+# 📸 Project Screenshots
+
+## Top Skills Analysis
+
+![Top Skills](top_skills.png)
+
+---
+
+## Salary by Skill Analysis
+
+![Salary by Skill](salary_by_skill.png)
+
+---
+
+## Window Function Ranking
+
+![Window Function](window_function.png)
+
+---
+
+## Industry Salary Analysis
+
+![Industry Salary](industry_salary.png)
+
+---
+
+## 🚀 Future Improvements
 
 - Add Power BI dashboard
 - Add advanced SQL queries using CTEs
@@ -104,9 +141,13 @@ FROM salaries;
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 Karuna Rajput
 
 GitHub:
 https://github.com/karunarajput08
+
+---
+
+# ⭐ If you found this project useful, feel free to star the repository.
